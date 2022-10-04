@@ -730,5 +730,8 @@ transform: translateY(0);
 .picture-img-wrap:hover .box_portfol_img::after {
     transform: translateY(0);
 }
-
+.svg__foot, .svg-foot
+{
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
