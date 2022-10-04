@@ -377,9 +377,9 @@ ul { padding-inline-start: 0px; }
 .navigation-b ,.navigation-bi {
     margin-left: 50px;
     margin-right: 50px;
-}
-.navigation-aa , .navigation-di {
-    margin-right: 50px;
+} 
+.div_anime {
+    margin-left: 32px;
 }
 .box-navigation
 {
@@ -387,7 +387,7 @@ ul { padding-inline-start: 0px; }
 }
 
 a.logo.active.logo-activ{
-   margin-right:93px ; 
+  margin-right:93px ; 
    padding-top: 20px;
    padding-bottom: 24px;
 }
@@ -504,6 +504,7 @@ header {
   margin-right: auto;
   padding-bottom: 50px;
 }
+/*
 .navigation-bb::before,  .navigation-ii::before {
     content:url( "../images/img1/tel.svg");
     padding-right: 10px;
@@ -513,8 +514,8 @@ header {
     content:url( "../images/img1/mail.svg");
     padding-right: 10px;
     /*fill:#188CE8;*/
-    color: currentColor;
-}
+  /*  color: currentColor;
+}*/
 .link__sots {
     width: 44px;
     height: 44px;
@@ -734,4 +735,52 @@ transform: translateY(0);
 {
     background-color: rgba(255, 255, 255, 0.1);
 }
+.icon-tel-heder {
+    display: inline-block;
+}
+.tel-heder {
+    width: 10px; ;
+    height: 16px;
+   }
+.mail-heder {
+    width: 16px;
+    height:12px ;
+}
+.mail-heder,.tel-heder {
+    margin-right: 10px;
+}
+.div_anime:hover ,.div_anime:focus {
+    color: var(--main-one-color);
+    fill: var(--main-one-color); ;
 
+}
+.heder__n {
+    color: var(--main-one-color);
+}
+.heder__a {
+    color:  var(--main-se-color) ;
+}
+.logo4{
+    width: 106px;
+    height: 60px;
+}
+.link__li__foot {
+    position: relative;
+}
+.logo4 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.section__pictuary  {
+    position: relative;
+}
+.icon__antenna {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
