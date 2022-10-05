@@ -812,6 +812,7 @@ transform: translateY(0);
   }
   
   .field {
+    height: 40px;
     position: relative;
     margin-bottom: 10px;
   }
@@ -892,6 +893,7 @@ transform: translateY(0);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    margin-left: 9px;
   }
   
   .button {
@@ -904,7 +906,7 @@ transform: translateY(0);
     color: var(--main-one-color);
   }
  
-   /* .button-form {
+   .button-form {
         width: 200px;
         padding: 0px;
         border: 0px;
@@ -915,8 +917,13 @@ transform: translateY(0);
         border-radius: 4px;
         font-size: 16px;
         margin: auto;
-        margin-top: 30px;
-        font-weight: 700px; }*/
+         margin-top: 20px;
+        font-weight: 700px;
+        display: flex;  
+       align-items: center;
+       justify-content: center;
+     
+     }
 
     .logo4:focus , .logo4:hover{
         fill: var(--main-one-color);
@@ -945,6 +952,7 @@ transform: translateY(0);
   
   .modal {
     position: absolute;
+    margin-bottom: 0px;
     width: 528px;
     height: 581px;
     padding: 40px;
@@ -972,4 +980,5 @@ transform: translateY(0);
     border-radius: 50%;
     background-color: transparent;
   }
+
   
