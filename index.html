@@ -86,7 +86,7 @@
         <button type="button" class="bot-button" data-modal-open>Замовити послугу</button>
       </section>
 
-      <section class="section-texno section">
+      <section class="section-texno">
         <div class="container">
           <h2 class="subject">СЕКЦІЯ ТЕХНОЛОГІЇ</h2>
           <ul class="tehnology">
@@ -156,13 +156,13 @@
           </ul>
         </div>
       </section>
-      <section class="section-work section">
+      <section class="section-work">
         <div class="container">
           <h2 class="title">Чим ми займаємося</h2>
           <ul class="foto">
             <li class="foto__box">
               
-              <img class="work-img"
+              <img
                 src="./images/img2.jpg"
                 alt=" Технологія "
                 width="370"
@@ -175,7 +175,7 @@
             </li>
             <li class="foto__box">
              
-              <img class="work-img"
+              <img
                 src="./images/img1.jpg"
                 alt=" Технологія "
                 width="370"
@@ -188,7 +188,7 @@
             </li>
               <li class="foto__box">
             
-              <img class="work-img"
+              <img
                 src="./images/img3.jpg"
                 alt=" Технологія "
                 width="370"
@@ -203,7 +203,7 @@
         </div>
       </section>
 
-      <section class="section-comand section">
+      <section class="section-comand">
         <div class="container">
           <h2 class="bend">Наша команда</h2>
           <ul class="frend">
@@ -361,12 +361,12 @@
           </ul>
         </div>
       </section>
-      <section class="section">
-        <div class="container section">
+      <section>
+        <div class="container">
           <h2 class="text_section">Постійні клієнти</h2>
           <ul class="link__foot">
             <li class="link__li__foot">          
-            
+              <div class="li__client">
               <a href="#" class="li__client__a">              
                 <svg class="logo4">
                   <use class="div__svg"
@@ -375,9 +375,12 @@
                     height="60"
                   ></use></svg
               >          
-            </a> 
-            </li>    
-            <li class="link__li__foot">      
+            </a>
+          </div>
+            </li>
+          
+            <li class="link__li__foot">
+              <div class="li__client">
               <a href="#" class="li__client__a">             
                 <svg class="logo4">
                   <use class="div__svg"
@@ -386,11 +389,14 @@
                     height="60"
                   ></use></svg
               >           
-          </a>            
+          </a> 
+        </div>        
             </li>        
-            <li class="link__li__foot">       
+            <li class="link__li__foot">
+              <div class="li__client">
               <a href="#" class="li__client__a"
-                > 
+                >
+               
                   <svg class="logo4">
                   <use class="div__svg"
                     href="./images/icons.svg#icon-logo3"
@@ -399,8 +405,11 @@
                   ></use></svg
               >           
           </a>
+        </div>
         </li>
+          
             <li class="link__li__foot">  
+              <div class="li__client">
               <a href="#" class="li__client__a"  >      
             <svg class="logo4">
                   <use class="div__svg"
@@ -412,10 +421,13 @@
                   </svg
               >
             </a>
+          </div>
             </li>
             <li class="link__li__foot">
+              <div class="li__client">
               <a href="#" class="li__client__a"
                 >
+                
                   <svg class="logo4">
                   <use class="div__svg"
                     href="./images/icons.svg#icon-logo5"
@@ -424,8 +436,11 @@
                   ></use></svg
               >
             </a>
-            </li>       
-            <li class="link__li__foot link__logo6">       
+          </div>
+            </li>
+          
+            <li class="link__li__foot link__logo6">
+              <div class="li__client">
               <a href="#" class="li__client__a"
                 > 
                   <svg class="logo4">
@@ -435,8 +450,10 @@
                     height="60"
                   ></use></svg
               >
-            </a>    
-            </li>      
+            </a>
+          </div>
+            </li>
+          
           </ul>
         </div>
       </section>
@@ -572,7 +589,12 @@
               type="checkbox"
               name="privacy"
             />
-           
+
+            <span class="privacy-wrapp">
+              <svg class="privacy-icon" width="16" height="15">
+                <use href="./images/icons.svg#check"></use>
+              </svg>
+            </span>        
             <span class="privacy-text">
               Погоджуюся з розсилкою та приймаю
               <a class="privacy-link" href="#">Умови договору</a>
