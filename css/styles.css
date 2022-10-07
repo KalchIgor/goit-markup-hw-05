@@ -139,9 +139,6 @@ ul { padding-inline-start: 0px; }
 .li-tehnology{
     width: 270px;
   /* flex-basis: calc((100% - 30px*3)/4);*/
- /*display: flex;  
-  align-items: center;
-  justify-content: center;*/
 }
 
 .li-tehnology.li-tehnology-right {  
@@ -489,7 +486,6 @@ header {
 .li__client__a:focus , .li__client__a:hover{
     fill: var(--main-one-color);
     border-color: var(--main-one-color)
-
 };
 
 
@@ -531,15 +527,18 @@ header {
 
 
 .li_sots:hover, .li_sots:focus {
-   fill: var(--main-sir-color);
-  color: var(--main-one-color);
+ /* color: var(--main-one-color);*/
   border-radius: 50%;
 }
-             
 .li_sots:hover, .li_sots:focus {
-  
-     background-color: var(--main-one-color);
+    background-color: var(--main-one-color);
+}
+             
+.ikon_so:hover, .ikon_so:focus {
+    fill: var(--main-sir-color);
+   
  }
+
 .sotsial__link {
     display: flex;
     gap: 10px;
