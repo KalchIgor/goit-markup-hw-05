@@ -553,13 +553,13 @@ header {
     align-items: center;
     justify-content: center;
 }
-   
 .text__footer {
-    width: 700;
-    size: 14 px;
-    height: 1.17;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
     color: var(--main-sir-color);
     margin-bottom: 20px;
+   text-transform: uppercase ;
 }
 .sotsial__footer {
     justify-content: start;
