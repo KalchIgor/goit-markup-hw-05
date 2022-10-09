@@ -525,18 +525,20 @@ header {
     color:  var(--main-so-color);
 }
   
+.link__sots:hover , .link__sots:focus {
+    fill: var(--main-sir-color);
+    background-color: var(--main-one-color);
+}
 
-
-.li_sots:hover, .li_sots:focus {
+/*.li_sots:hover, .li_sots:focus {
 border-radius: 50%;
 background-color: var(--main-one-color);
 }
-
-        
+    
 .ikon_so:hover, .ikon_so:focus {
     fill: var(--main-sir-color);
     
- }
+ }  */
 
 .sotsial__link {
     display: flex;
