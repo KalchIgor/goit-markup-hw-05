@@ -530,16 +530,6 @@ header {
     background-color: var(--main-one-color);
 }
 
-/*.li_sots:hover, .li_sots:focus {
-border-radius: 50%;
-background-color: var(--main-one-color);
-}
-    
-.ikon_so:hover, .ikon_so:focus {
-    fill: var(--main-sir-color);
-    
- }  */
-
 .sotsial__link {
     display: flex;
     gap: 10px;
@@ -953,6 +943,7 @@ margin-top: -44px;
 }
 .button-footer__text{
  display: flex;
+    padding: 0px;
     padding-left: 28px;
     width: 200px;
     height: 50px;
@@ -962,8 +953,8 @@ margin-top: -44px;
     color: var(--main-sir-color);
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-align-items: center;
+    border-radius: 4px;
+    align-items: center;
    
 }
 .svg-send {
