@@ -467,7 +467,6 @@ header {
    display: flex;
 }
 
-  
 .link__li__foot {
   
      display: flex;
@@ -484,11 +483,6 @@ header {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
-.li__client__a:focus , .li__client__a:hover{
-    fill: var(--main-one-color);
-    border-color: var(--main-one-color)
-};
-
 
 .wrup__ul {
     padding-top: 94px;
@@ -607,7 +601,7 @@ margin-top: -44px;
     position: relative ; 
 }
 
-  .close__btn {
+.close__btn {
     fill: var(--main-sr-color) ;
 }
 .navigation-a ,.animashn, .navigation-bi {
@@ -939,9 +933,9 @@ margin-top: -44px;
     font-size: 14px;
     line-height: 1.25;
     color: var(--main-sir-color);
-   
 
 }
+
 .button-footer__text{
  display: flex;
     padding: 0px;
@@ -963,6 +957,12 @@ margin-top: -44px;
     width: 13px;
     height: 13px;
 }
-.logo4 , .ikon_so {
+
+
+
+.li__client__a , .ikon_so {
     fill: var(--main-icon-color);
 }
+.li__client__a:focus, .li__client__a:hover {
+    fill: var(--main-one-color);
+    border-color: var(--main-one-color);}
