@@ -21,6 +21,7 @@ html {
     --main-sr-color:  #000000;
     --main-btn-color:  #188CE8;
     --main-icn-cololor:#F5F5F5;
+    --main-icon-color: #AFB1B8;
 
   }
   
@@ -963,5 +964,5 @@ margin-top: -44px;
     height: 13px;
 }
 .logo4 , .ikon_so {
-    fill: #AFB1B8;;
+    fill: var(--main-icon-color);
 }
