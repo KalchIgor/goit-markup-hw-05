@@ -47,6 +47,7 @@ ul { padding-inline-start: 0px; }
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
+    align-items: center;
 }
 
 
@@ -60,6 +61,13 @@ ul { padding-inline-start: 0px; }
 .active:hover,.active:focus  {
     color:  var(--main-one-color);
 }
+/*
+.div_anime:hover,.div_anime:focus  {
+    color:  var(--main-one-color);
+    fill: #188CE8;
+}
+
+*/
 
 .navigation-a, .navigation-bi {
     color:var(--main-one-color);
@@ -966,12 +974,10 @@ margin-top: -44px;
     height: 13px;
 }
 
-/*
-.li__client__a:focus, .li__client__a:hover {
-    fill: var(--main-one-color);
-    border-color: var(--main-one-color);
+.mail-heder , .tel-heder {
+    fill: var(--main-to-color);
 }
- .li__client__a , .link__sots {
-        fill: var(--main-icon-color);
- }
- */
+
+.div_anime { display: flex;
+    align-items: center;
+}
