@@ -60,14 +60,8 @@ ul { padding-inline-start: 0px; }
 
 .active:hover,.active:focus  {
     color:  var(--main-one-color);
+ fill: #188CE8;
 }
-/*
-.div_anime:hover,.div_anime:focus  {
-    color:  var(--main-one-color);
-    fill: #188CE8;
-}
-
-*/
 
 .navigation-a, .navigation-bi {
     color:var(--main-one-color);
@@ -695,6 +689,7 @@ margin-top: -44px;
 .mail-heder,.tel-heder {
     margin-right: 10px;
 }
+
 .div_anime:hover ,.div_anime:focus {
     color: var(--main-one-color);
     fill: var(--main-one-color); ;
@@ -974,10 +969,9 @@ margin-top: -44px;
     height: 13px;
 }
 
-.mail-heder , .tel-heder {
-    fill: var(--main-to-color);
-}
-
 .div_anime { display: flex;
     align-items: center;
+}
+.div_anime {
+    fill: var(--main-to-color);
 }
