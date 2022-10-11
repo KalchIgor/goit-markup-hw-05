@@ -586,17 +586,18 @@ margin-top: -44px;
 }
 
 .pictur__text {
-    width: 400;
+    font-weight: 400;
     size: 18px;
     height: 1.56;
     color: var(--main-sir-color);
 }
 
 .title__text {
-    width: 700;
+    font-weight: 700;
     size: 14px;
     height: 1.17;
     color: var(--main-sir-color);
+    text-transform: uppercase;
 }
 .wrop__text {
     width: 370px;
