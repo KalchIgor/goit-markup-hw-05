@@ -362,15 +362,15 @@ border-radius: 4px;
     display: inline-block;
  
 }
-.navigation-ci, .navigation-c { 
+.navigation-c { 
     display: inline-block;
 
 }
-.navigation-di, .navigation-aa { 
+.navigation-aa { 
     display: inline-block;
    
 }
-.navigation-ii, .navigation-bb { 
+.navigation-bb { 
     display: inline-block;
   
 }
@@ -965,8 +965,9 @@ margin-top: -44px;
 }
 
 .button-footer__text{
- display: flex;
+    display: flex;
     padding: 0px;
+    border: 0px;
     padding-left: 28px;
     width: 200px;
     height: 50px;
